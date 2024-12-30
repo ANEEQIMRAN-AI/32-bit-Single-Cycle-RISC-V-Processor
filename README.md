@@ -54,9 +54,9 @@ This project presents a custom implementation of a RISC-V 32-bit single-cycle pr
 | R-Type           | ADD, SUB, AND, OR     |
 | I-Type           | ADDI, LOAD            |
 | S-Type           | STORE                 |
-| B-Type           | BEQ, BNE              |
+| B-Type           | BEQ, BNE ,ETC              |
 | U-Type           | LUI, AUIPC            |
-| J-Type           | JAL                   |
+| J-Type           | JAL JALR                  |
 
 ## Testing and Validation
 - **Unit Testing:** Each module has its own testbench to ensure correctness.
